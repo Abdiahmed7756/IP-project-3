@@ -6,6 +6,26 @@
     <title>AKAN NAMES</title>
 </head>
 <body>
-    
+    <h3>Kindly fill this form to find your Akan name:</h3>
+    <hr>
+    <form action="">
+        <label for="year">YEAR</label> <br>
+        <input type="number" id="year"><br>
+        <label for="month">MONTH</label> <br>
+        <input type="number" id="month"><br>
+        <label for="date">DATE</label><br>
+        <input type="number" id="date"><br>
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control" id="gender">
+                <option>Male</option>
+                <option>Female</option><br>
+            </select>
+        </div>
+        <button type="button" class="btn btn-light" onclick="names()">Check</button>
+    </form>
+    <hr>
+
+    <h2 id="display"></h2>
 </body>
 </html>
